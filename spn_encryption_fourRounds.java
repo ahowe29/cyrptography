@@ -261,9 +261,9 @@ public class SPN {
         System.out.println(encrypted);
 
 
-    } //end while and third round of SPN
+    } 
     
-    //fourth round
+    //helper methods
 
     public static int binaryStrToInt(String binary) {
         int one = Integer.parseInt(binary, 2);
